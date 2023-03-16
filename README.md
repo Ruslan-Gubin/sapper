@@ -1,15 +1,17 @@
-Стек - Next.js, TypeScript,
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Next.js, TypeScript,
 
 State - Redux toolkit
 
 Работа с localeStorage - redux-persist
 
+## Deploy on Vercel
+https://sapper-nine-mocha.vercel.app
 
-Ссылка на vercel: https://sapper-nine-mocha.vercel.app
 
 
-
-Структура:
+## Структура:
 
 app: Layout приложения, store/storeReducer, styles-глобальные стили
 
