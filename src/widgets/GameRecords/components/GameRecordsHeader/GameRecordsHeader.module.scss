@@ -1,0 +1,19 @@
+.root {
+display: flex;
+align-items: center;
+// justify-content: space-around;
+  & .nav__container {
+    display: flex;
+    & h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: rgb(149, 145, 145);
+      margin-right:  30px ;
+      cursor: pointer;
+      // padding: 10px 20px;
+    }
+    & .active {
+       color: rgb(68, 71, 71);
+     }
+  }
+}

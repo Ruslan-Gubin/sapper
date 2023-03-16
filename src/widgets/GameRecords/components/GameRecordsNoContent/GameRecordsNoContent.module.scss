@@ -1,0 +1,30 @@
+.root {
+
+  & h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(82, 78, 78);
+    &::after{
+      content: '.';
+      animation-name: content;
+      animation-iteration-count: infinite;
+      animation: content alternate  0.5s infinite forwards ;
+
+    }
+  }
+
+
+
+}
+
+@keyframes content {
+
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+
+  }
+  
+}

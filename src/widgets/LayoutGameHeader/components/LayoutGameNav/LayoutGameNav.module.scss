@@ -1,0 +1,42 @@
+.root {
+  padding: 0 20px;
+  width: 40%;
+  @media (max-width: 980px) {
+      width: 50%;
+  }
+  @media (max-width: 800px) {
+      width: 80%;
+  }
+  @media (max-width: 600px) {
+      width: 100%;
+  }
+  
+  & .links {
+    display: flex;
+    justify-content: space-between;
+
+    & .nav__item {
+      font-weight: 700;
+      font-size: 2rem;
+      color: rgb(49, 116, 178);
+      transition: all 0.3s ease;
+      @media (max-width: 350px) {
+        font-size: 1.5rem;
+      }
+      text-shadow: 1px 1px 3px   rgb(142, 143, 144);
+      &:hover {
+        transition: all 0.3s ease;
+        color: rgb(68, 137, 201);
+      }
+    }
+    
+    & .nav__item_active {
+      color: rgb(91, 91, 91);
+      &:hover {
+        transition: all 0.3s ease;
+        color: rgb(110, 110, 110);
+      }
+    }
+  }
+
+}
